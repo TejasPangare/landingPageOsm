@@ -100,6 +100,7 @@
   width: 796px;
   height: 538px;
   mix-blend-mode: normal;
+  background-image: url("katkat.png");
 }
 .our-service-offerings,
 .strategies-that-drive {
@@ -1475,4 +1476,14 @@
   position: relative;
   background-color: var(--color-white);
   height: 11634px;
+}
+.background-simple-icon{
+  background-image: url("searchhouse.png");
+  background-size: cover;
+  opacity: 1;
+}
+.frame-child9{
+  background-image: url("teacher.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
