@@ -7,6 +7,7 @@
     .header-image{
       top: 6%;
         left: 0;
+        background-repeat: no-repeat;
     }
 
     .potential-sub{
@@ -41,7 +42,7 @@
         transform: scale(.8);
     }
     .teacher{
-      top:4800px;
+      top:4850px;
       transform: scale(.7);
     }
 
@@ -81,8 +82,9 @@
     }
     .frame-parent8{
         top: calc(50% + 2576px);
-        transform: scale(.8);
-        width: 100%;
+        transform: scale(.9);
+        width: 80%;
+        gap: 60px;
     }
     .frame-parent12{
         height: 350vh;
@@ -98,7 +100,7 @@
         align-items: center;
     }
     .testimonial-card{
-        top: 5%;
+        top: 3%;
     }
     .frame-parent14{
         top: 1200px;
@@ -118,6 +120,13 @@
         width: 100%;
         text-align: center;
     }
+    .m-buttons {
+        margin-top: 80px;
+    }
+    .what-our-pharma-partners-say-parent{
+        transform: scale(.8);
+        top: -20px;
+    }
   }
 
 
@@ -125,11 +134,96 @@
 
 /* for mobiles */
   @media (max-width:500px) {
-    body{
-        display: none;
-    }
-  }
 
+    .frame-parent{
+        transform: scale(.7);
+        width: 145%;
+    }
+
+    .nav{
+        justify-content: space-between;
+        padding: 0;
+        flex-direction: column;
+        /* height: 10%; */
+    }
+    .osumare-logo-01-2-4{
+        transform: scale(.7);
+    }
+    .real-estate-focused-digital {
+        width: 80%;
+    }
+
+    .our-expertise-in-action-parent{
+        gap: 0;
+    }
+
+    .teacher{
+        top: 4840px;
+        transform: scale(.6);
+        width: 150%;
+    }
+    .navigating-real-estates-digit-parent{
+        transform: scale(.9);
+    }
+    .frame-section{
+        top: calc(50% - 500px);
+        width: 175%;
+    }
+
+    .directing-the-arrow-upcuate {
+        margin-top: -3%;
+    }
+
+    .our-service-offerings-parent {
+        transform: scale(.9);
+    }
+
+    .driving-property-inquiries-to-group {
+        gap: 0;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .div1,.how-does-osumare-measure-campa-parent{
+        gap: 0;
+    }
+    .osumares-expertise-in{
+        width: 100%;
+    }
+
+    .icon-group, .icon-parent{
+        width: 80%;
+        transform: scale(.9);
+    }
+
+    .frame-parent8{
+        width: 100%;
+        transform: scale(.8);
+    }
+
+    .m-buttons {
+        margin-top: 100px;
+    }
+    .what-our-pharma-partners-say-parent {
+        transform: scale(.6);
+  }
+  .services-section {
+    transform: scale(.9);
+  }
+  .form{
+    transform: scale(.9);
+  } 
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   @media (min-width:621px) and (max-width:1280px){
     .frame-child9{display: block;}
     .teacher{
