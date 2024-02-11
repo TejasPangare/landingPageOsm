@@ -130,7 +130,7 @@
     }
   }
 
-  @media (min-width:621px) {
+  @media (min-width:621px) and (max-width:1280px){
     .frame-child9{display: block;}
     .teacher{
         top:3800px;
