@@ -1,0 +1,138 @@
+/* for tabs */
+@media (max-width:1280px){
+    
+    .real-estate{
+        height:13500px
+    }
+    .header-image{
+      top: 6%;
+        left: 0;
+    }
+
+    .potential-sub{
+        flex-direction: column-reverse;
+        transform: scale(.8);
+    }
+    .directing-the-arrow-upcuate{
+        width: 100%;
+        height: 400px;
+    }
+
+    .services-section{
+        top: calc(50% - 4300px);
+    }
+    .frame-container {
+        margin-top: 140px;
+        width: 100%;
+        height: inherit;
+        gap: var(--gap-13xl);
+        text-align: center;
+    }
+
+    .unlock-the-potential-of-digita-parent{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .frame-parent {
+        top: calc(50% - 6500px);
+        width: 100%;
+        transform: scale(.8);
+    }
+    .teacher{
+      top:4800px;
+      transform: scale(.7);
+    }
+
+    .frame-child9{display: none;}
+    .background-simple-parent{
+    flex-direction: column-reverse;
+    }
+
+
+    .background-simple-parent{
+        text-align: center;
+        top: calc(50% - 1300px);
+        transform: scale(.7);
+        width: 175%;
+        gap: 20px;
+    }
+
+    .driving-property-inquiries-to-group{
+        gap: 0;
+    }
+    .frame-section{
+        top: calc(50% - 700px);
+        transform: scale(.7);
+        justify-content: center;
+    }
+    .frame-parent11{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    .frame-parent5{
+        top:59%;
+        transform: scale(0.7);
+        width: 200%;
+    }
+    .frame-parent8{
+        top: calc(50% + 2576px);
+        transform: scale(.8);
+        width: 100%;
+    }
+    .frame-parent12{
+        height: 350vh;
+        top: 9610px;
+        transform: scale(.8);
+    }
+
+    .what-our-pharma-partners-say-parent {
+        top: 0;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial-card{
+        top: 5%;
+    }
+    .frame-parent14{
+        top: 1200px;
+    }
+    .form-section {
+        top:11600px;
+        height:1200px
+    }
+    .faq{
+        padding: 0
+    }
+
+    .frame-footer{
+        top:12750px
+    }
+    .osumare-all-rights {
+        width: 100%;
+        text-align: center;
+    }
+  }
+
+
+
+
+/* for mobiles */
+  @media (max-width:500px) {
+    body{
+        display: none;
+    }
+  }
+
+  @media (min-width:621px) {
+    .frame-child9{display: block;}
+    .teacher{
+        top:3800px;
+      }
+  }
